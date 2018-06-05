@@ -1,0 +1,11 @@
+C:\Users\anthony\codefellows\401\data-structures-and-algorithms\Challenges\ClassDemo\ClassDemo\bin\Debug\netcoreapp2.1\ClassDemo.deps.json
+C:\Users\anthony\codefellows\401\data-structures-and-algorithms\Challenges\ClassDemo\ClassDemo\bin\Debug\netcoreapp2.1\ClassDemo.runtimeconfig.json
+C:\Users\anthony\codefellows\401\data-structures-and-algorithms\Challenges\ClassDemo\ClassDemo\bin\Debug\netcoreapp2.1\ClassDemo.runtimeconfig.dev.json
+C:\Users\anthony\codefellows\401\data-structures-and-algorithms\Challenges\ClassDemo\ClassDemo\bin\Debug\netcoreapp2.1\ClassDemo.dll
+C:\Users\anthony\codefellows\401\data-structures-and-algorithms\Challenges\ClassDemo\ClassDemo\bin\Debug\netcoreapp2.1\ClassDemo.pdb
+C:\Users\anthony\codefellows\401\data-structures-and-algorithms\Challenges\ClassDemo\ClassDemo\obj\Debug\netcoreapp2.1\ClassDemo.csprojAssemblyReference.cache
+C:\Users\anthony\codefellows\401\data-structures-and-algorithms\Challenges\ClassDemo\ClassDemo\obj\Debug\netcoreapp2.1\ClassDemo.csproj.CoreCompileInputs.cache
+C:\Users\anthony\codefellows\401\data-structures-and-algorithms\Challenges\ClassDemo\ClassDemo\obj\Debug\netcoreapp2.1\ClassDemo.AssemblyInfoInputs.cache
+C:\Users\anthony\codefellows\401\data-structures-and-algorithms\Challenges\ClassDemo\ClassDemo\obj\Debug\netcoreapp2.1\ClassDemo.AssemblyInfo.cs
+C:\Users\anthony\codefellows\401\data-structures-and-algorithms\Challenges\ClassDemo\ClassDemo\obj\Debug\netcoreapp2.1\ClassDemo.dll
+C:\Users\anthony\codefellows\401\data-structures-and-algorithms\Challenges\ClassDemo\ClassDemo\obj\Debug\netcoreapp2.1\ClassDemo.pdb
