@@ -6,17 +6,20 @@ namespace ArrayReverse
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ArrayReverse();
         }
-        int[] arr = {0,1,2,3,4,5};
-        int[] arrNew = new int[arr.length];
 
-        int j = 0;
+        public static void ArrayReverse()
+        {
+            int[] givenArr = new int[] { 7, 6, 5, 4, 3, 2, 1 };
+            int[] ReverseArray = new int[givenArr.Length];
 
-            for(int i = arr1.Length - 1; i >= 0; i--)
+            for (var i = givenArr.Length - 1; i >= 0; i--)
             {
-              arr2[j] = arr1[i];
-              j++;
+                ReverseArray[i] = givenArr[i];
+                Console.WriteLine(ReverseArray[i]);
             }
+        }
+    }
 }
-}
+
