@@ -1,0 +1,11 @@
+C:\Users\anthony\codefellows\401\data-structures-and-algorithms\Challenges\ArrayReverse\ArrayReverse\bin\Debug\netcoreapp2.1\ArrayReverse.deps.json
+C:\Users\anthony\codefellows\401\data-structures-and-algorithms\Challenges\ArrayReverse\ArrayReverse\bin\Debug\netcoreapp2.1\ArrayReverse.runtimeconfig.json
+C:\Users\anthony\codefellows\401\data-structures-and-algorithms\Challenges\ArrayReverse\ArrayReverse\bin\Debug\netcoreapp2.1\ArrayReverse.runtimeconfig.dev.json
+C:\Users\anthony\codefellows\401\data-structures-and-algorithms\Challenges\ArrayReverse\ArrayReverse\bin\Debug\netcoreapp2.1\ArrayReverse.dll
+C:\Users\anthony\codefellows\401\data-structures-and-algorithms\Challenges\ArrayReverse\ArrayReverse\bin\Debug\netcoreapp2.1\ArrayReverse.pdb
+C:\Users\anthony\codefellows\401\data-structures-and-algorithms\Challenges\ArrayReverse\ArrayReverse\obj\Debug\netcoreapp2.1\ArrayReverse.csprojAssemblyReference.cache
+C:\Users\anthony\codefellows\401\data-structures-and-algorithms\Challenges\ArrayReverse\ArrayReverse\obj\Debug\netcoreapp2.1\ArrayReverse.csproj.CoreCompileInputs.cache
+C:\Users\anthony\codefellows\401\data-structures-and-algorithms\Challenges\ArrayReverse\ArrayReverse\obj\Debug\netcoreapp2.1\ArrayReverse.AssemblyInfoInputs.cache
+C:\Users\anthony\codefellows\401\data-structures-and-algorithms\Challenges\ArrayReverse\ArrayReverse\obj\Debug\netcoreapp2.1\ArrayReverse.AssemblyInfo.cs
+C:\Users\anthony\codefellows\401\data-structures-and-algorithms\Challenges\ArrayReverse\ArrayReverse\obj\Debug\netcoreapp2.1\ArrayReverse.dll
+C:\Users\anthony\codefellows\401\data-structures-and-algorithms\Challenges\ArrayReverse\ArrayReverse\obj\Debug\netcoreapp2.1\ArrayReverse.pdb
