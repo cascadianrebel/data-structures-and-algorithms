@@ -1,0 +1,11 @@
+C:\Users\anthony\codefellows\401\data-structures-and-algorithms\Challenges\Array_adjacent_product\Array_adjacent_product\bin\Debug\netcoreapp2.1\Array_adjacent_product.deps.json
+C:\Users\anthony\codefellows\401\data-structures-and-algorithms\Challenges\Array_adjacent_product\Array_adjacent_product\bin\Debug\netcoreapp2.1\Array_adjacent_product.runtimeconfig.json
+C:\Users\anthony\codefellows\401\data-structures-and-algorithms\Challenges\Array_adjacent_product\Array_adjacent_product\bin\Debug\netcoreapp2.1\Array_adjacent_product.runtimeconfig.dev.json
+C:\Users\anthony\codefellows\401\data-structures-and-algorithms\Challenges\Array_adjacent_product\Array_adjacent_product\bin\Debug\netcoreapp2.1\Array_adjacent_product.dll
+C:\Users\anthony\codefellows\401\data-structures-and-algorithms\Challenges\Array_adjacent_product\Array_adjacent_product\bin\Debug\netcoreapp2.1\Array_adjacent_product.pdb
+C:\Users\anthony\codefellows\401\data-structures-and-algorithms\Challenges\Array_adjacent_product\Array_adjacent_product\obj\Debug\netcoreapp2.1\Array_adjacent_product.csprojAssemblyReference.cache
+C:\Users\anthony\codefellows\401\data-structures-and-algorithms\Challenges\Array_adjacent_product\Array_adjacent_product\obj\Debug\netcoreapp2.1\Array_adjacent_product.csproj.CoreCompileInputs.cache
+C:\Users\anthony\codefellows\401\data-structures-and-algorithms\Challenges\Array_adjacent_product\Array_adjacent_product\obj\Debug\netcoreapp2.1\Array_adjacent_product.AssemblyInfoInputs.cache
+C:\Users\anthony\codefellows\401\data-structures-and-algorithms\Challenges\Array_adjacent_product\Array_adjacent_product\obj\Debug\netcoreapp2.1\Array_adjacent_product.AssemblyInfo.cs
+C:\Users\anthony\codefellows\401\data-structures-and-algorithms\Challenges\Array_adjacent_product\Array_adjacent_product\obj\Debug\netcoreapp2.1\Array_adjacent_product.dll
+C:\Users\anthony\codefellows\401\data-structures-and-algorithms\Challenges\Array_adjacent_product\Array_adjacent_product\obj\Debug\netcoreapp2.1\Array_adjacent_product.pdb
