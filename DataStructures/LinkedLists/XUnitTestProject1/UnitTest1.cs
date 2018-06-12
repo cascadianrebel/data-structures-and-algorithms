@@ -10,7 +10,7 @@ namespace XUnitTestProject1
         public void CanAddNode()
         {
             //Arrange
-            LinkedLists ll = new LinkList(new Node(4));
+            LinkLists ll = new LinkList(new Node(4));
             Node node = new Node(8);
             Node node2 = new Node(15);
 
