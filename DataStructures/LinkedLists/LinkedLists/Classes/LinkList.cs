@@ -6,10 +6,17 @@ namespace LinkedLists
 {
      class LinkList
     {
+        //Declaring the Head property
         public Node Head { get; set; }
 
+        //Declaring the Current Property
         public Node Current { get; set; }
 
+        //the constructor setting the Head and Current Properties as nodes
+        /// <summary>
+        /// constructor making the Head and Current properties each a node. 
+        /// </summary>
+        /// <param name="node">a node object must be used in the paramaters</param>
         public LinkList(Node node)
         {
             Head = node;
@@ -49,6 +56,9 @@ namespace LinkedLists
         }
 
         // Print out Nodes O(n)
+        /// <summary>
+        /// displays the "node tree" on the console
+        /// </summary>
         public void Print()
         {
             Current = Head;
@@ -58,7 +68,7 @@ namespace LinkedLists
                 Console.Write($"{Current.Value}--> ");
                 Current = Current.Next;
             }
-            Console.Write($"{Current.Value} --> NULL");
+            Console.Write($"{Current.Value} --> NULL  ");
         }
 
         // add before O(n)
