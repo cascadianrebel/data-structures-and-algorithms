@@ -4,7 +4,7 @@ using System.Text;
 
 namespace LinkedLists
 {
-     class LinkList
+     public class LinkList
     {
         //Declaring the Head property
         public Node Head { get; set; }
@@ -19,6 +19,7 @@ namespace LinkedLists
         /// <param name="node">a node object must be used in the paramaters</param>
         public LinkList(Node node)
         {
+            //sets the first node as the Head and Current
             Head = node;
             Current = node;
         }
@@ -30,6 +31,7 @@ namespace LinkedLists
         /// <param name="node"> ensures that a node is being added</param>
         public void Add(Node node)
         {
+            Current = Head;
             node.Next = Head;
             Head = node;
             Current = Head;
@@ -77,11 +79,13 @@ namespace LinkedLists
         /// </summary>
         /// <param name="newNode">the node being added to the list</param>
         /// <param name="existingNode">the node for which the newNode will be placed in front of</param>
+        /// 
         public void AddBefore(Node newNode, Node existingNode)
         {
             //Reset our current to the beginning of the linked list
             Current = Head;
 
+            //edge case where the newNode is placed before the Head node
             if (Head.Value == existingNode.Value)
             {
                 Add(newNode);
@@ -100,6 +104,33 @@ namespace LinkedLists
             }
         }
         
+        //add after O(n)
+        /// <summary>
+        /// Add a new node after the specified existing node
+        /// </summary>
+        /// <param name="newNode">the new node being added</param>
+        /// <param name="existingNode">the exisiting node for which the new node will follow</param>
+        public void AddAfter(Node newNode, Node existingNode) 
+        {
+            Current = Head;
+            if(existingNode.Next == null) 
+            {
+                existingNode.Next = newNode;
+            }
+
+            while(Current.Next != null) 
+            {
+                if(Current.Value == existingNode.Value) 
+                {
+                    Add(newNode);
+                    return;
+                }
+                Current= Current.Next;
+            }
+
+        }
+
+
         // add Last O(n)
         /// <summary>
         /// adds node to the end of the list
@@ -115,7 +146,7 @@ namespace LinkedLists
             Current.Next = newNode;
         }
 
-        //Add Last O(n)
+        
 
     }
 }
