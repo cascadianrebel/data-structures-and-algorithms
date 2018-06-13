@@ -9,7 +9,7 @@ namespace ArrayReverse
             ArrayReverse();
         }
 
-        public static void ArrayReverse()
+        public static int[] ArrayReverse()
         {
             int[] givenArr = new int[] { 7, 6, 5, 4, 3, 2, 1 };
             int[] ReverseArray = new int[givenArr.Length];
@@ -19,6 +19,7 @@ namespace ArrayReverse
                 ReverseArray[i] = givenArr[i];
                 Console.WriteLine(ReverseArray[i]);
             }
+                return ReverseArray;
         }
     }
 }
