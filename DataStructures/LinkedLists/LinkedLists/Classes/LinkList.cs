@@ -19,6 +19,7 @@ namespace LinkedLists
         /// <param name="node">a node object must be used in the paramaters</param>
         public LinkList(Node node)
         {
+            //sets the first node as the Head and Current
             Head = node;
             Current = node;
         }
@@ -30,6 +31,7 @@ namespace LinkedLists
         /// <param name="node"> ensures that a node is being added</param>
         public void Add(Node node)
         {
+            Current = Head;
             node.Next = Head;
             Head = node;
             Current = Head;
@@ -82,6 +84,7 @@ namespace LinkedLists
             //Reset our current to the beginning of the linked list
             Current = Head;
 
+            //edge case where the newNode is placed before the Head node
             if (Head.Value == existingNode.Value)
             {
                 Add(newNode);
@@ -100,6 +103,29 @@ namespace LinkedLists
             }
         }
         
+        //add after O(n)
+        
+        public void AddAfter(Node newNode, Node existingNode) 
+        {
+            Current = Head;
+            if(existingNode.Next == null) 
+            {
+                existingNode.Next = newNode;
+            }
+
+            while(Current.Next != null) 
+            {
+                if(Current.Value == existingNode.Value) 
+                {
+                    Add(newNode);
+                    return;
+                }
+                Current= Current.Next;
+            }
+
+        }
+
+
         // add Last O(n)
         /// <summary>
         /// adds node to the end of the list
@@ -115,7 +141,7 @@ namespace LinkedLists
             Current.Next = newNode;
         }
 
-        //Add Last O(n)
+        
 
     }
 }
