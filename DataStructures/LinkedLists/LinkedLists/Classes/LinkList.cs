@@ -4,7 +4,7 @@ using System.Text;
 
 namespace LinkedLists
 {
-     class LinkList
+     public class LinkList
     {
         //Declaring the Head property
         public Node Head { get; set; }
@@ -79,6 +79,7 @@ namespace LinkedLists
         /// </summary>
         /// <param name="newNode">the node being added to the list</param>
         /// <param name="existingNode">the node for which the newNode will be placed in front of</param>
+        /// 
         public void AddBefore(Node newNode, Node existingNode)
         {
             //Reset our current to the beginning of the linked list
@@ -104,7 +105,11 @@ namespace LinkedLists
         }
         
         //add after O(n)
-        
+        /// <summary>
+        /// Add a new node after the specified existing node
+        /// </summary>
+        /// <param name="newNode">the new node being added</param>
+        /// <param name="existingNode">the exisiting node for which the new node will follow</param>
         public void AddAfter(Node newNode, Node existingNode) 
         {
             Current = Head;
