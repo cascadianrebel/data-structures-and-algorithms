@@ -13,5 +13,7 @@ namespace Stack_and_Queue
         {
             Value = value;
         }
+
+
     }
 }
