@@ -4,14 +4,14 @@ using System.Text;
 
 namespace Stack_and_Queue
 {
-    class Queue
+    public class Queue
     {
         //create the Front and Rear node properties
         public Node Front { get; set; }
         public Node Rear { get; set; }
 
         //Constructor to guarantee that you have at least one node starting out. 
-        public InitialQueue(Node node)
+        public Queue(Node node)
         {
             Front = node;
             Rear = Front;
