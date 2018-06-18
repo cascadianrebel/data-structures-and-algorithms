@@ -1,17 +1,15 @@
-﻿using System;
+﻿using LinkedLists;
+using System;
 
-namespace mergeLists
+namespace TestChalleng
 {
     class Program
     {
+
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-        }
-
-        static Merge(LL1 , LL2)
-        {
-
+            LinkList ab = new LinkList(new Node(3));
         }
     }
 }

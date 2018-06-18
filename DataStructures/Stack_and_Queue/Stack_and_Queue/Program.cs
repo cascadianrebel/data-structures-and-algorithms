@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace mergeLists
+namespace Stack_and_Queue
 {
     class Program
     {
@@ -9,9 +9,6 @@ namespace mergeLists
             Console.WriteLine("Hello World!");
         }
 
-        static Merge(LL1 , LL2)
-        {
-
-        }
+        
     }
 }
