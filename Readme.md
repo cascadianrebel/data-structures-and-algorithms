@@ -12,7 +12,8 @@ Below are a list of challenges provided and the status of their completion
 Below are a list of Data Structures and the status of their completion
 
 ## Data Structure Examples
-1) [Linked List](https://github.com/cascadianrebel/data-structures-and-algorithms/blob/master/DataStructures/LinkedLists/ReadMe.md)
+1. [Linked List](https://github.com/cascadianrebel/data-structures-and-algorithms/blob/master/DataStructures/LinkedLists/ReadMe.md)
+2. [Merge List](https://github.com/cascadianrebel/data-structures-and-algorithms/blob/master/DataStructures/mergeLists/ReadMe.md)
 
 ## Author
 Anthony Green
