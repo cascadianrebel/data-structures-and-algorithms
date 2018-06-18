@@ -4,13 +4,13 @@ using System.Text;
 
 namespace Stack_and_Queue
 {
-    class Stack
+    public class Stack
     {
         // create the Top node property
         public Node Top { get; set; }
 
         //Constructor to guarantee that at least one node exists in the list
-        public void InitialStack(Node node)
+        public Stack(Node node)
         {
             Top = node;
         }
