@@ -9,7 +9,7 @@ Implement the following methods for the Queue class:
 ** You have access to 2 Stack instances with push and pop methods.
 
 ## Whiteboard
-![WhiteboardChallenge11](../../assets/QueueWithStacksWhiteboard.jpg)
+![WhiteboardChallenge11](https://github.com/cascadianrebel/data-structures-and-algorithms/blob/master/assets/QueueWithStacksWhiteboard.jpg)
 
 ## Explanation
 
