@@ -14,7 +14,7 @@ Below are a list of Data Structures
 ## Data Structure Examples
 1. [Linked List](https://github.com/cascadianrebel/data-structures-and-algorithms/blob/master/DataStructures/LinkedLists/ReadMe.md)
 2. [Merge List](https://github.com/cascadianrebel/data-structures-and-algorithms/blob/master/DataStructures/mergeLists/ReadMe.md)
-3. [Stack and Queue](https://github.com/cascadianrebel/data-structures-and-algorithms/tree/Stack-and-Queue/DataStructures/Stack_and_Queue/Stack_and_Queue)
+3. [Stack and Queue](https://github.com/cascadianrebel/data-structures-and-algorithms/tree/master/DataStructures/Stack_and_Queue/Stack_and_Queue)
 
 
 ## Author
