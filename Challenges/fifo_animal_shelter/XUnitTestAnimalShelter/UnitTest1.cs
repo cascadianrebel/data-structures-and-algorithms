@@ -1,6 +1,7 @@
 using System;
 using Xunit;
 using fifo_animal_shelter;
+using static fifo_animal_shelter.AnimalShelter;
 
 namespace XUnitTestAnimalShelter
 {
@@ -18,7 +19,7 @@ namespace XUnitTestAnimalShelter
 
             animalShelter.Enqueue(pet2);
 
-
+            Assert.Equal(pet2, animalShelter.Rear);
         }
     }
 }
