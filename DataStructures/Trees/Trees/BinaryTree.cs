@@ -6,6 +6,8 @@ namespace Trees
 {
     public class BinaryTree
     {
+        public Node Root { get; set; }
+
         /// <summary>
         /// root first ordering. Output will be the nodes left to right starting at the root node
         /// </summary>
@@ -75,7 +77,7 @@ namespace Trees
             while (breadth.TryPeek(out root))
             {
                 Node front = breadth.Dequeue();
-                Console.Write(front.Value);
+                Console.WriteLine(front.Value);
                 if (front.LeftChild != null)
                 {
                     breadth.Enqueue(front.LeftChild);
@@ -124,7 +126,7 @@ namespace Trees
         /// </summary>
         /// <param name="root">root node</param>
         /// <param name="node"> node to add</param>
-        public virtual void Add(Node root, Node node)
+        public void AddToBT(Node root, Node node)
         {
             Console.WriteLine("hit add node function");
             Queue<Node> breadth = new Queue<Node>();

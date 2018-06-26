@@ -38,29 +38,29 @@ namespace Trees
         /// overrides the method from BinaryTree.cs to add a node to the tree in a specific placement
         /// </summary>
         /// <param name="root">root node</param>
-        /// <param name="node">new node to be added</param>
-        public override void Add(Node root, Node node)
+        /// <param name="NewNode">new node to be added</param>
+        public void AddToBST(Node root, Node NewNode)
         {
-            Console.WriteLine("hit add function bst");
-            if (root.Value == node.Value)
+            if (Root == null)
             {
-                root = new Node(node.Value);
+                Root = NewNode;
+                Console.WriteLine("adding new node");
             }
-            if (root.Value > node.Value)
+            if (root.Value > NewNode.Value)
             {
                 if (root.LeftChild == null)
                 {
-                    root.LeftChild = node;
+                    root.LeftChild = NewNode;
                 }
-                Add(root.LeftChild, node);
+                AddToBST(root.LeftChild, NewNode);
             }
-            if (root.Value < node.Value)
+            if (root.Value < NewNode.Value)
             {
                 if (root.RightChild == null)
                 {
-                    root.RightChild = node;
+                    root.RightChild = NewNode;
                 }
-                Add(root.RightChild, node);
+                AddToBST(root.RightChild, NewNode);
             }
 
         }

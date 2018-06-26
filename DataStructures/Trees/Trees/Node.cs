@@ -12,7 +12,7 @@ namespace Trees
 
         public Node (int value)
         {
-            value = Value;
+            Value = value;
         }
 
     }
