@@ -10,6 +10,7 @@ Below are a list of challenges provided and the status of their completion
 5. [Queue with Stacks](https://github.com/cascadianrebel/data-structures-and-algorithms/blob/master/Challenges/Array_adjacent_product/ReadMe.md)
 6. [fifo animal shelter](https://github.com/cascadianrebel/data-structures-and-algorithms/blob/master/Challenges/fifo_animal_shelter/ReadMe.md)
 7. [MultiBracketValidation](https://github.com/cascadianrebel/data-structures-and-algorithms/tree/master/Challenges/MultiBracketValidation)
+8. [FizzBuzzTree](https://github.com/cascadianrebel/data-structures-and-algorithms/tree/master/Challenges/FizzBuzzTree/FizzBuzzTree)
 
 # Data Structures
 Below are a list of Data Structures
