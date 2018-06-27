@@ -6,15 +6,17 @@ namespace Stack_and_Queue
     {
         static void Main(string[] args)
         {
-
+            // create nodes
             Node exampleNode = new Node(3);
             Node exampleNode2 = new Node(5);
             Node exampleNode3 = new Node(7);
             Node exampleNode4 = new Node(9);
             Node exampleNode5 = new Node(11);
+            //creates an stack that only contains one node
             Stack exampleStack = new Stack(exampleNode);
             Console.WriteLine($"Stack Created  {exampleNode5.Value}-> {exampleNode4.Value} -> {exampleNode3.Value} -> {exampleNode2.Value} -> {exampleNode.Value}");
 
+            // adds nodes to stack
             exampleStack.Push(exampleNode2);
             exampleStack.Push(exampleNode3);
             exampleStack.Push(exampleNode4);
@@ -31,10 +33,10 @@ namespace Stack_and_Queue
             Console.WriteLine("Press enter to create a Queue");
             Console.ReadLine();
 
-            
+            // create a queue with one node
             Queue exampleQueue = new Queue(exampleNode);
 
-
+            //add nodes to queue
             exampleQueue.Enqueue(exampleNode2);
             exampleQueue.Enqueue(exampleNode3);
             exampleQueue.Enqueue(exampleNode4);

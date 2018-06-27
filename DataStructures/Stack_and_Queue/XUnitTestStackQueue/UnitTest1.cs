@@ -8,7 +8,9 @@ namespace XUnitTestStackQueue
     public class UnitTest1 
     {
 
-        // Stack Testing
+        /// <summary>
+        /// The stack can be created
+        /// </summary>
         [Fact]
         public void CanCreateStack()
         {
@@ -19,6 +21,9 @@ namespace XUnitTestStackQueue
             Assert.NotNull(testStack);
         }
 
+        /// <summary>
+        /// the stack can have nodes added
+        /// </summary>
         [Fact]
         public void CanPushToStack()
         {
@@ -38,7 +43,9 @@ namespace XUnitTestStackQueue
 
             Assert.Equal(testStack.Peek(), testNode5);
         }
-
+        /// <summary>
+        /// the stack can have nodes removed
+        /// </summary>
         [Fact]
         public void CanPopFromStack()
         {
@@ -59,7 +66,9 @@ namespace XUnitTestStackQueue
             Assert.Equal(testStack.Pop(), testNode5);
         }
 
-        //Queue Testing
+        /// <summary>
+        /// a node can be added to the queue
+        /// </summary>
         [Fact]
         public void CanEnqueueNode()
         {
@@ -80,6 +89,9 @@ namespace XUnitTestStackQueue
             Assert.Equal(testQueue.Rear, testNode5);
         }
 
+        /// <summary>
+        /// a node can be removed from the queue
+        /// </summary>
         [Fact]
         public void CanDequeueNode()
         {
@@ -103,6 +115,9 @@ namespace XUnitTestStackQueue
 
         }
 
+        /// <summary>
+        /// front of the queue can be viewed
+        /// </summary>
         [Fact]
         public void CanPeekQueue()
         {
