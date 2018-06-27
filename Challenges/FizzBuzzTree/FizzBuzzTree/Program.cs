@@ -7,7 +7,16 @@ namespace FizzBuzzTreeChallenge
         public static void Main(string[] args)
         {
             Console.WriteLine("Fizz Buzz Tree!");
-            FizzBuzzTree();
+            Node initialNode = new Node("1");
+            Tree FBTree = new Tree();
+            FBTree.Add(initialNode, new Node("5"));
+            FBTree.Add(initialNode, new Node("7"));
+            FBTree.Add(initialNode, new Node("6"));
+            FBTree.Add(initialNode, new Node("2"));
+            FBTree.Add(initialNode, new Node("15"));
+            FBTree.Add(initialNode, new Node("11"));
+
+            FizzBuzzTree(initialNode);
         }
 
         public static Node FizzBuzzTree (Node root)
