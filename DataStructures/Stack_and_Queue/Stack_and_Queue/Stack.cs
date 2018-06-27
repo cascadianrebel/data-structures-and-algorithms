@@ -6,22 +6,35 @@ namespace Stack_and_Queue
 {
     public class Stack
     {
-        // create the Top node property
+        /// <summary>
+        /// creates the top node property
+        /// </summary>
         public Node Top { get; set; }
 
-        //Constructor to guarantee that at least one node exists in the list
+        /// <summary>
+        /// construtor to guarantee that at least one node exists in the stack
+        /// </summary>
+        /// <param name="node">the first node in the stack</param>
         public Stack(Node node)
         {
             Top = node;
         }
 
-        // add node to stack
+       
+        /// <summary>
+        /// add a node to the stack
+        /// </summary>
+        /// <param name="node">node to add</param>
         public void Push(Node node)
         {
             node.Next = Top;
             Top = node;
         }
-        // removes and returns top node to stack
+
+        /// <summary>
+        /// removes top node off stack
+        /// </summary>
+        /// <returns>top node of stack</returns>
         public Node Pop()
         {
             Node temp = Top;
@@ -29,7 +42,11 @@ namespace Stack_and_Queue
             temp.Next = null;
             return temp;
         }
-        // returns the top node on the stack
+
+        /// <summary>
+        /// view top node of stack
+        /// </summary>
+        /// <returns> the value of the top node of the stack</returns>
         public Node Peek()
         {
             return Top;
