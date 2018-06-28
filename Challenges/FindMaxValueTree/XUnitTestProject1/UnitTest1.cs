@@ -9,9 +9,10 @@ namespace XUnitTestProject1
         [Fact]
         public void FindMaxWorks()
         {
+            //create and assign root node and tree
             Node testRootNode = new Node(2);
             BinaryTree testBiTree = new BinaryTree(testRootNode);
-
+            //add nodes to tree
             testBiTree.Root.LeftChild = new Node(7);
             testBiTree.Root.RightChild = new Node(5);
             testBiTree.Root.LeftChild.LeftChild = new Node(2);
@@ -20,7 +21,7 @@ namespace XUnitTestProject1
             testBiTree.Root.LeftChild.LeftChild.LeftChild = new Node(5);
             testBiTree.Root.LeftChild.LeftChild.RightChild = new Node(11);
             testBiTree.Root.RightChild.RightChild.LeftChild = new Node(4);
-
+            // ensure that 11 is the highest value
             Assert.Equal(11, Program.FindMax(testRootNode));
 
 
@@ -35,7 +36,7 @@ namespace XUnitTestProject1
             biTree.Root.LeftChild.LeftChild.LeftChild = new Node(50);
             biTree.Root.LeftChild.LeftChild.RightChild = new Node(0);
             biTree.Root.RightChild.RightChild.LeftChild = new Node(4);
-
+            // ensure 83 is the highest value
             Assert.Equal(83, Program.FindMax(testRootNode));
 
             Node testRootNode3 = new Node(12);
@@ -49,7 +50,7 @@ namespace XUnitTestProject1
             biTree2.Root.LeftChild.LeftChild.LeftChild = new Node(50);
             biTree2.Root.LeftChild.LeftChild.RightChild = new Node(0);
             biTree2.Root.RightChild.RightChild.LeftChild = new Node(4);
-
+            //ensure 50 is the highest value
             Assert.Equal(50, Program.FindMax(testRootNode));
         }
     }
