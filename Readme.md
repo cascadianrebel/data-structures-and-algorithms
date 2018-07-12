@@ -11,6 +11,7 @@ Below are a list of challenges provided and the status of their completion
 6. [fifo animal shelter](https://github.com/cascadianrebel/data-structures-and-algorithms/blob/master/Challenges/fifo_animal_shelter/ReadMe.md)
 7. [MultiBracketValidation](https://github.com/cascadianrebel/data-structures-and-algorithms/tree/master/Challenges/MultiBracketValidation)
 8. [FizzBuzzTree](https://github.com/cascadianrebel/data-structures-and-algorithms/tree/master/Challenges/FizzBuzzTree/FizzBuzzTree)
+9. [MaxValueTree](https://github.com/cascadianrebel/data-structures-and-algorithms/blob/master/Challenges/FindMaxValueTree/ReadMe.md) 
 
 # Data Structures
 Below are a list of Data Structures
@@ -21,6 +22,8 @@ Below are a list of Data Structures
 2. [Stack and Queue](https://github.com/cascadianrebel/data-structures-and-algorithms/tree/master/DataStructures/Stack_and_Queue/Stack_and_Queue)
 
 3. [Binary Trees](https://github.com/cascadianrebel/data-structures-and-algorithms/blob/master/DataStructures/Trees/Trees/ReadMe.md)
+
+4. [Graphs](https://github.com/cascadianrebel/data-structures-and-algorithms/tree/master/DataStructures/Graphs/Graphs) 
 
 
 ## Author
