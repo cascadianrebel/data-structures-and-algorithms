@@ -5,7 +5,7 @@ Given a lengthy string (such as a book), return the first word that is used more
 
 ## Whiteboard
 
-![RepeatedWord Whiteboard](linktosomething)
+![RepeatedWord Whiteboard](https://github.com/cascadianrebel/data-structures-and-algorithms/blob/master/assets/RepeatedWordWhiteboard.PNG)
 
 ## Testing
 check for strings without words
