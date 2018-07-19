@@ -6,7 +6,7 @@ Write a function called tree_intersection that takes two binary tree parameters 
 
 ### Visual
 
-![Whiteboard](~/assets/tree_intersectionWB.PNG)
+![Whiteboard](https://github.com/cascadianrebel/data-structures-and-algorithms/blob/master/assets/tree_intersectionWB.PNG)
 
 ### Solution
 
