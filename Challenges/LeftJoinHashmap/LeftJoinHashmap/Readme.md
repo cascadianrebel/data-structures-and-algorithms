@@ -12,7 +12,7 @@ LEFT JOIN means all the values in the first hashmap are returned, and if values 
 ![Example](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-33/dsa-33-io-table.png)
 
 ### Whiteboard
-![Whiteboard](~/../assets/leftjoinhashtables)
+![Whiteboard](https://github.com/cascadianrebel/data-structures-and-algorithms/blob/master/assets/leftjoinwhiteboard.PNG)
 
 ## Author
 Anthony Green
