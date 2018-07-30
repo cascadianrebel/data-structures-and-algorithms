@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertionSortAlgorithm", "InsertionSort\InsertionSortAlgorithm.csproj", "{475F7A5B-F1E8-467D-9D8E-0EB1F97C7A88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitInsertionSort", "XUnitInsertionSort\XUnitInsertionSort.csproj", "{832F54DE-7367-4CA6-8509-19BA303D5D99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{475F7A5B-F1E8-467D-9D8E-0EB1F97C7A88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{475F7A5B-F1E8-467D-9D8E-0EB1F97C7A88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{475F7A5B-F1E8-467D-9D8E-0EB1F97C7A88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{475F7A5B-F1E8-467D-9D8E-0EB1F97C7A88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{832F54DE-7367-4CA6-8509-19BA303D5D99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{832F54DE-7367-4CA6-8509-19BA303D5D99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{832F54DE-7367-4CA6-8509-19BA303D5D99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{832F54DE-7367-4CA6-8509-19BA303D5D99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7246F769-9D8F-4A19-9FCA-D716BEF4B79F}
+	EndGlobalSection
+EndGlobal
