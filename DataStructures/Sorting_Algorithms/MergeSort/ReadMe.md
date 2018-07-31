@@ -9,7 +9,7 @@ Write a function that accepts an array of unsorted integers, and returns a sorte
 
 ![Visualization of Splitting and Merging](http://www.csharpstar.com/wp-content/uploads/2016/01/Merge_Sort.jpg)
 
-![MergeSort Whiteboard](http:)
+![MergeSort Whiteboard](https://github.com/cascadianrebel/data-structures-and-algorithms/blob/master/DataStructures/Assets/MergeSortWhiteboard.PNG)
 
 ## Author
 Anthony Green
