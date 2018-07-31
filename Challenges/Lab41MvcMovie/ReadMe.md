@@ -2,7 +2,7 @@
 > Demonstrate understanding of the .NET  MVC 5 Web App using built in codes from Visual Studio to create a searchable database.
 
 ## Visuals
-![Movies Index]()
+![Movies Index](https://github.com/cascadianrebel/data-structures-and-algorithms/blob/master/assets/Lab41Screenshot.PNG)
 
 
 ## Features
