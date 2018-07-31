@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab41MvcMovie", "Lab41MvcMovie\Lab41MvcMovie.csproj", "{1E1C1361-07B0-4A63-AF96-332F21E17760}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D6D5440F-EA2A-44C4-828E-431AD773BC04}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.md = ReadMe.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E1C1361-07B0-4A63-AF96-332F21E17760}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E1C1361-07B0-4A63-AF96-332F21E17760}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E1C1361-07B0-4A63-AF96-332F21E17760}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E1C1361-07B0-4A63-AF96-332F21E17760}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB763C66-BC71-45A0-939A-5B75D3DE05F0}
+	EndGlobalSection
+EndGlobal
