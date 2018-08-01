@@ -6,7 +6,7 @@ Write a function that accepts an array of integers, and returns an array sorted 
 ## Visuals
 ![Animation of QuickSort](https://upload.wikimedia.org/wikipedia/commons/6/6a/Sorting_quicksort_anim.gif)
 
-![WhiteBoard of QuickSort]()
+![WhiteBoard of QuickSort](https://github.com/cascadianrebel/data-structures-and-algorithms/blob/master/assets/QuickSortWhiteboard.PNG)
 
 ## Explanation
 Quicksort is an algorithm that divides and conquers an unsorted array to return the array in ascending order.
