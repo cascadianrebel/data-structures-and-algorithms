@@ -60,8 +60,8 @@ namespace HashTables
         /// <summary>
         /// finds the value of the provided key
         /// </summary>
-        /// <param name="key"></param>
-        /// <returns></returns>
+        /// <param name="key">the key string</param>
+        /// <returns>the value of the key/value pair</returns>
         public string Find(string key)
         {
             int i = GetHash(key);
