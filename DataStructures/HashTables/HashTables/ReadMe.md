@@ -14,9 +14,9 @@ The HashTable could be thought of as a dictionary. In this application, we're st
 A Hashtable would also be well used to store data with a somewhat randomized index positions. This would prevent hackers from easily targeting key value pairs. 
  
 ## Visual
-![Visual of Hashtables](http)
+![Visual of Hashtables](https://github.com/cascadianrebel/data-structures-and-algorithms/blob/master/assets/HashTableWhiteboard.PNG)
 
-![Visual of ConsoleApp](http)
+![Visual of ConsoleApp](https://github.com/cascadianrebel/data-structures-and-algorithms/blob/master/assets/HashTableConsole.PNG)
 
 ## Specs
 The Hashtable is able to handle the following:
