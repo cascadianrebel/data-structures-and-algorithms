@@ -20,7 +20,7 @@ namespace HashTables
         /// find the index position of the a particular key
         /// </summary>
         /// <param name="key"></param>
-        /// <returns></returns>
+        /// <returns>the Hash Nunmber</returns>
         public int GetHash(string key)
         {
             decimal charNumValue = 0;
@@ -47,10 +47,57 @@ namespace HashTables
                 Value = value
             };
 
-            int indexPos = GetHash(key);
+            int i = GetHash(key);
+            //if collision, place in next value
+            if (BucketArray[i] != null)
+            {
+                bucket.Next = BucketArray[i];
+            }
 
-            BucketArray[indexPos] = bucket;
-            
+            BucketArray[i] = bucket;          
         }
+
+        /// <summary>
+        /// finds the value of the provided key
+        /// </summary>
+        /// <param name="key"></param>
+        /// <returns></returns>
+        public string Find(string key)
+        {
+            int i = GetHash(key);
+
+            if (BucketArray[i].Key == key)
+            {
+                return BucketArray[i].Value;
+            }
+
+            Bucket bucket = BucketArray[i];
+            while (bucket.Next != null)
+            {
+                if (bucket.Key == key)
+                {
+                    return bucket.Value;
+                }
+             bucket = bucket.Next;
+            }
+
+            return bucket.Value;
+        }
+        
+        /// <summary>
+        /// searches through hashtable, if the key is present 
+        /// </summary>
+        /// <param name="key"></param>
+        /// <returns></returns>
+        public bool Contains(string key)
+        {
+            int i = GetHash(key);
+            if (BucketArray[i].Key == key && BucketArray[i].Value != null)
+            {
+                return true;
+            }
+            else return false;
+        }
+
     }
 }
